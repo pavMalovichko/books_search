@@ -1,0 +1,24 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 255px;
+	background-image: url('../../assets/images/books_bg1.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.fields {
+	display: flex;
+	gap: 50px;
+}
+.input {
+	width: 600px;
+}
